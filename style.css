@@ -9,10 +9,10 @@
 
 body {
   background-color: #f7f7f9;
+  overflow-x: hidden;
 }
 .gen-nav {
   background-color: white;
-  /* padding: 10px 20px; */
   padding: 10px 35px;
   position: fixed;
   width: 100%;
@@ -48,23 +48,28 @@ ul li {
   background-color: #465fec;
 }
 
+.contact-btn:hover{
+background-color:#465fec;
+}
 .nav-links {
   color: #465fec;
 }
 
+.hosted:hover{
+  background-color:#465fec;
+}
 /* second section */
 .second {
   background: url(./Images/Header-bg.png);
+  background-color: white;
   width: 100%;
-  height: 95vh;
-  padding: 240px 0 55px 55px;
-
+  height: 98vh;
+  padding: 240px 35px 55px 55px;
   border-bottom-left-radius: 70px;
 }
 
 .intro h1 {
   font-weight: 700;
-  /* width: 50%; */
   color: #172b4d;
 }
 
@@ -93,8 +98,9 @@ ul li {
   font-size: 13px;
 }
 
-.project1{
+#project {
   padding: 0 55px;
+  margin-top: 80px;
 }
 
 .project-images {
@@ -108,31 +114,142 @@ ul li {
 .details1 h2 {
   font-weight: 600;
 }
+.container-fluid {
+  padding: 0 !important;
+}
 
+/* about section */
+.about {
+  padding: 0 55px;
+  margin-top: 80px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* language */
+
+.lang-img {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.lang-img img {
+  width: 100%;
+}
+
+.me {
+  width: 50%;
+}
+
+.contact {
+  background: url(./Images/Header-bg.png);
+  background-color: #465fec;
+  height: 90vh;
+  margin-top: 80px;
+  border-top-left-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  font-weight: 600;
+}
+.touch {
+  background-color: white;
+  color: #465fec;
+}
+
+.touch:hover{
+  background-color: #465feca2;
+  color: white;
+}
+.contact p {
+  width: 50%;
+}
+
+input {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  border-radius: 7px;
+  padding: 10px;
+}
+
+form {
+  width: 50%;
+}
 @media (max-width: 1024px) {
   .second {
-    padding: 200px 0px  15px 45px;
-    height: 80vh;
+    padding: 220px 35px 35px 35px;
   }
 
   .intro p {
     font-size: 17px;
   }
 
-  .project1{
-    padding: 0 45px;
+  #project {
+    padding: 0 35px;
+  }
+
+  .about {
+    padding: 0 35px;
+    gap: 40px;
+  }
+  .me {
+    width: 100%;
+  }
+  .contact {
+    height: 100vh;
+  }
+  .contact p{
+    width: 80%;
+  }
+  form {
+    width: 80%;
   }
 }
 
 @media (max-width: 767px) {
-  .pd {
-    padding: 7px 10px;
+  #project {
+    padding: 0 35px;
   }
   .intro p {
     font-size: 13px;
   }
 
   .second {
-    padding: 150px 12px 0px 12px;
+    padding: 200px 35px 0px 35px;
+    height: 70vh;
+  }
+
+  .project1 {
+    gap: 50px;
+  }
+
+  .about {
+    padding: 0 35px;
+  }
+
+  .project-images {
+    width: 100%;
+  }
+
+  .contact {
+    padding: 0 35px;
+    height: 100vh;
+  }
+
+  .contact p {
+    width: 100%;
+  }
+  form {
+    width: 100%;
   }
 }

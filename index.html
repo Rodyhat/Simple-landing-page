@@ -16,7 +16,7 @@
 <body>
     <div class="general">
         <div class="contain">
-            <nav class="navbar navbar-expand-lg gen-nav pd">
+            <nav class="navbar navbar-expand-lg gen-nav">
                 <div class="container-fluid">
                     <a class="navbar-brand logo-div" href="#">
                         <img src="./Images/logo.png" id="logo" alt="">
@@ -29,20 +29,23 @@
                     <div class="collapse navbar-collapse side-links" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link nav-links" aria-current="page" href="#">Project</a>
+                                <a class="nav-link nav-links" aria-current="page" href="#project">Project</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-links" href="#">About Me</a>
+                                <a class="nav-link nav-links" href="#about">About Me</a>
                             </li>
                         </ul>
+                       <a href="#contact">
                         <button class="btn btn-outline-success text-light contact-btn" type="submit">Contact Me</button>
+                       </a>
                     </div>
                 </div>
             </nav>
-            <div class="second">
+            <div class="second ">
                 <div class="hero-intro">
                     <div class="intro">
-                        <h1>Hello,I'm Rodiat! 👋<div> Glad to see you!</div></h1>
+                        <h1>Hello,I'm Rodiat! 👋<div> Glad to see you!</div>
+                        </h1>
                         <p>I'm a Full-stack developer with a strong passion for frontend development. Currently, I'm
                             working
                             on
@@ -72,9 +75,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="project">
-                <div class="project1 row justify-content-between align-items-center rounded-5 p-4">
+            <div id="project">
+                <div class="project1 row justify-content-between align-items-center rounded-5 ">
                     <div class="project-images">
                         <img src="./Images/project-img2.png" alt="" class="col-lg-6 col-md-6 col-12 ">
                     </div>
@@ -101,21 +103,22 @@
 
 
                 </div>
-                <div class="project1 row  rounded-5  mt-5">
+                <div class="project1 row justify-content-between align-items-center rounded-5  mt-5">
                     <div class="details1 col-lg-6 col-md-6 col-12 ">
                         <h2>Browser Extension UI</h2>
-                        <p>An interactive and stylish course card that dynamically changes background colors with each
-                            click. Designed to enhance user engagement, it seamlessly presents course details while
-                            adding a vibrant and modern touch. 🌈</p>
+                        <p>A sleek and intuitive browser extension UI designed for effortless extension management. It
+                            features an Active/Inactive toggle for quick enable/disable actions, a Remove button for
+                            easy uninstallation, and an All button for bulk management. With Light & Dark mode support,
+                            users can customize their experience for better accessibility and comfort. 🚀</p>
                         <div class="language">
                             <div class="lang">HTML</div>
                             <div class="lang">CSS</div>
                             <div class="lang">Javascript</div>
                         </div>
                         <div class="source pt-3 d-flex gap-3">
-                            <a href="https://rodyhat.github.io/Dynamic-User-Profile-Card/">
+                            <a href="https://rodyhat.github.io/Browser-extension-ui/">
                                 <button type="button" class="btn btn-outline-primary hosted">See Live</button>
-                                <a href="https://github.com/Rodyhat/Dynamic-User-Profile-Card">
+                                <a href="https://github.com/Rodyhat/Browser-extension-ui ">
                                     <button type="button" class="btn btn-outline-primary hosted">See Source</button>
 
                                 </a>
@@ -127,6 +130,83 @@
 
 
                 </div>
+            </div>
+            <div class="about row  align-items-center justify-content-between" id="about">
+                <div class="me col-lg-8 col-md-8 col-12">
+                    <h2>About Myself</h2>
+                    <p>I'm a passionate Full-Stack Developer with a strong foundation in PHP, JavaScript, MySQL, and
+                        React. I enjoy solving complex problems, building efficient applications, and continuously
+                        improving my skills. If you have a project in mind or are looking for a dedicated developer to
+                        collaborate with, let's connect! I’m always open to exciting opportunities and challenges. For a
+                        detailed look at my skills and experience, feel free to check out my CV.
+                    </p>
+                    <p>
+                        I also love sharing knowledge and engaging with the tech community. Whether it's through
+                        discussions, collaborations, or helping others debug code, I enjoy being part of a
+                        learning-driven environment. If you're passionate about tech and innovation, feel free to
+                        connect with me on my social media platforms! 🚀
+                    </p>
+                    <div class="connect">
+                        <p>LET'S CONNECT</p>
+                        <div class="social-handles">
+                            <a href="http://tiktok.com/@r_o_d_y_h_a_t">
+                                <img src="./Images/icons8-tiktok.svg" alt="">
+                            </a>
+                            <a href="https://x.com/DevSprint03">
+                                <img src="./Images/Vector.svg" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/rodiat-isiaq/">
+                                <img src="./Images/Linkedin icon.svg" alt="">
+                            </a>
+                            <a href="https://medium.com/@DevSprint">
+                                <img src="./Images/medium.svg" alt="">
+                            </a>
+                            <a href="https://www.instagram.com/rodiatisiaq/">
+                                <img src="./Images/instagram-brands.svg " width="20px" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-lang col-lg-4 col-md-4 col-12 ">
+                    <div class="norm-lang ">
+                        <h5>Languages</h5>
+                        <div class="lang-img ">
+                            <img src="./Images/lang2.svg" alt="" class="">
+                            <img src="./Images/lang5.png" alt="">
+                            <img src="./Images/lang3.svg" alt="" class="">
+                        </div>
+                    </div>
+                    <div class="frameworks">
+                        <h5>Frameworks</h5>
+                        <div class="lang-img">
+                            <img src="./Images/lang7.svg" alt="">
+                            <img src="./Images/lang1.png" alt="">
+                            <img src="./Images/lang6.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="other-skills">
+                        <h5>Other Skills</h5>
+                        <div class="lang-img">
+                            <img src="./Images/lang10.png" alt="">
+                            <img src="./Images/lang8.png" alt="">
+                            <img src="./Images/lang9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact text-light flex-column gap-1" id="contact">
+                <h2>Contact Me</h2>
+                <p>If you have an application you are interested in developing, a feature that you need built or a
+                    project that needs coding. I’d love to help with it!</p>
+                <form action="" class=" d-flex flex-column  ">
+                    <div class="input d-flex flex-column gap-3">
+                        <input type="text" name="" placeholder="Enter your full-name" id="">
+                        <input type="email" name="" placeholder="Enter your email address" id="">
+                        <textarea name="" placeholder="Write your mesaages here" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-primary touch">Get in
+                    touch</button>
             </div>
         </div>
     </div>
