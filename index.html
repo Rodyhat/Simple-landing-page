@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio landing page</title>
+    <!-- cdn link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
         crossorigin="anonymous"></script>
+
+    <!-- css link -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,52 +40,56 @@
                                 <a class="nav-link nav-links" href="#about">About Me</a>
                             </li>
                         </ul>
-                       <a href="#contact">
-                        <button class="btn btn-outline-success text-light contact-btn" type="submit">Contact Me</button>
-                       </a>
+                        <a href="#contact">
+                            <button class="btn btn-outline-success text-light contact-btn" type="submit">Contact
+                                Me</button>
+                        </a>
                     </div>
                 </div>
             </nav>
             <div class="second ">
-                <div class="hero-intro">
-                    <div class="intro">
-                        <h1>Hello,I'm Rodiat! 👋<div> Glad to see you!</div>
-                        </h1>
-                        <p>I'm a Full-stack developer with a strong passion for frontend development. Currently, I'm
-                            working
-                            on
-                            exciting projects that bring ideas to life through beautiful, interactive designs. Let's
-                            collaborate
-                            and create something amazing together!</p>
-                    </div>
-                    <div class="connect">
-                        <p>LET'S CONNECT</p>
-                        <div class="social-handles">
-                            <a href="http://tiktok.com/@r_o_d_y_h_a_t">
-                                <img src="./Images/icons8-tiktok.svg" alt="">
-                            </a>
-                            <a href="https://x.com/DevSprint03">
-                                <img src="./Images/Vector.svg" alt="">
-                            </a>
-                            <a href="https://www.linkedin.com/in/rodiat-isiaq/">
-                                <img src="./Images/Linkedin icon.svg" alt="">
-                            </a>
-                            <a href="https://medium.com/@DevSprint">
-                                <img src="./Images/medium.svg" alt="">
-                            </a>
-                            <a href="https://www.instagram.com/rodiatisiaq/">
-                                <img src="./Images/instagram-brands.svg " width="20px" alt="">
-                            </a>
+                <div class="hero-intro" >
+                    <div data-aos="zoom-in" data-aos-duration="1800">
+                        <div class="intro">
+                            <h1>Hello,I'm Rodiat! 👋<div> Glad to see you!</div>
+                            </h1>
+                            <p>I'm a Full-stack developer with a strong passion for frontend development. Currently, I'm
+                                working
+                                on
+                                exciting projects that bring ideas to life through beautiful, interactive designs. Let's
+                                collaborate
+                                and create something amazing together!</p>
+                        </div>
+                        <div class="connect">
+                            <p>LET'S CONNECT</p>
+                            <div class="social-handles">
+                                <a href="http://tiktok.com/@r_o_d_y_h_a_t">
+                                    <img src="./Images/icons8-tiktok.svg" alt="">
+                                </a>
+                                <a href="https://x.com/DevSprint03">
+                                    <img src="./Images/Vector.svg" alt="">
+                                </a>
+                                <a href="https://www.linkedin.com/in/rodiat-isiaq/">
+                                    <img src="./Images/Linkedin icon.svg" alt="">
+                                </a>
+                                <a href="https://medium.com/@DevSprint">
+                                    <img src="./Images/medium.svg" alt="">
+                                </a>
+                                <a href="https://www.instagram.com/rodiatisiaq/">
+                                    <img src="./Images/instagram-brands.svg " width="20px" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <div id="project">
                 <div class="project1 row justify-content-between align-items-center rounded-5 ">
-                    <div class="project-images">
+                    <div class="project-images" data-aos="fade-right" data-aos-duration="1200">
                         <img src="./Images/project-img2.png" alt="" class="col-lg-6 col-md-6 col-12 ">
                     </div>
-                    <div class="details1 col-lg-6 col-md-6 col-12 ">
+                    <div class="details1 col-lg-6 col-md-6 col-12  " data-aos="fade-left" data-aos-duration="1200">
                         <h2>Dynamic Course Card</h2>
                         <p>An interactive and stylish course card that dynamically changes background colors with each
                             click. Designed to enhance user engagement, it seamlessly presents course details while
@@ -103,7 +112,8 @@
 
 
                 </div>
-                <div class="project1 row justify-content-between align-items-center rounded-5  mt-5">
+                <div class="project1 row justify-content-between align-items-center rounded-5  mt-5"
+                    data-aos="fade-right" data-aos-duration="1200">
                     <div class="details1 col-lg-6 col-md-6 col-12 ">
                         <h2>Browser Extension UI</h2>
                         <p>A sleek and intuitive browser extension UI designed for effortless extension management. It
@@ -125,14 +135,17 @@
                             </a>
                         </div>
                     </div>
-                    <img src="./Images/project-img5.png" alt="" id="img4"
-                        class="col-lg-6 col-md-6 col-12 project-images">
+                    <div class="project-images">
+                        <img src="./Images/project-img5.png" alt="" id="img4" class="col-lg-6 col-md-6 col-12 "
+                            data-aos="fade-left" data-aos-duration="1800">
+                    </div>
+
 
 
                 </div>
             </div>
             <div class="about row  align-items-center justify-content-between" id="about">
-                <div class="me col-lg-8 col-md-8 col-12">
+                <div class="me col-lg-8 col-md-8 col-12" data-aos="fade-right" data-aos-duration="1200">
                     <h2>About Myself</h2>
                     <p>I'm a passionate Full-Stack Developer with a strong foundation in PHP, JavaScript, MySQL, and
                         React. I enjoy solving complex problems, building efficient applications, and continuously
@@ -167,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="my-lang col-lg-4 col-md-4 col-12 ">
+                <div class="my-lang col-lg-4 col-md-4 col-12 " data-aos="fade-left" data-aos-duration="1200">
                     <div class="norm-lang ">
                         <h5>Languages</h5>
                         <div class="lang-img ">
@@ -195,21 +208,33 @@
                 </div>
             </div>
             <div class="contact text-light flex-column gap-1" id="contact">
-                <h2>Contact Me</h2>
-                <p>If you have an application you are interested in developing, a feature that you need built or a
-                    project that needs coding. I’d love to help with it!</p>
-                <form action="" class=" d-flex flex-column  ">
-                    <div class="input d-flex flex-column gap-3">
-                        <input type="text" name="" placeholder="Enter your full-name" id="">
-                        <input type="email" name="" placeholder="Enter your email address" id="">
-                        <textarea name="" placeholder="Write your mesaages here" id="" cols="30" rows="10"></textarea>
-                    </div>
-                </form>
-                <button type="button" class="btn btn-primary touch">Get in
-                    touch</button>
+                <div data-aos="zoom-in-down" data-aos-duration="1800"
+                    class="d-flex align-items-center justify-content-center flex-column">
+                    <h2>Contact Me</h2>
+                    <p>If you have an application you are interested in developing, a feature that you need built or a
+                        project that needs coding. I’d love to help with it!</p>
+                    <form action="" class=" d-flex flex-column  ">
+                        <div class="input d-flex flex-column gap-3">
+                            <input type="text" name="" placeholder="Enter your full-name" id="">
+                            <input type="email" name="" placeholder="Enter your email address" id="">
+                            <textarea name="" placeholder="Write your mesaages here" id="" cols="30"
+                                rows="10"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-primary touch">Get in
+                        touch</button>
+                </div>
+
             </div>
         </div>
     </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- cdn AOS js link -->
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
