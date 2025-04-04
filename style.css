@@ -135,7 +135,7 @@ p {
 /* language */
 
 .lang-img {
-  width: 100px;
+  width: 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -186,9 +186,9 @@ textarea {
   padding: 10px;
 }
 
-form {
+/* form {
   width: 50%;
-}
+} */
 @media (max-width: 1024px) {
   .second {
     padding: 220px 35px 35px 35px;
