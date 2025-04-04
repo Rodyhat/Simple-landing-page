@@ -5,12 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 
 body {
   background-color: #f7f7f9;
-  /* overflow-x: hidden; */
+}
+
+.general {
+  overflow-x: hidden;
 }
 .gen-nav {
   background-color: white;
@@ -50,15 +52,15 @@ ul li {
   background-color: #465fec;
 }
 
-.contact-btn:hover{
-background-color:#465fec;
+.contact-btn:hover {
+  background-color: #465fec;
 }
 .nav-links {
   color: #465fec;
 }
 
-.hosted:hover{
-  background-color:#465fec;
+.hosted:hover {
+  background-color: #465fec;
 }
 /* second section */
 .second {
@@ -164,7 +166,7 @@ p {
   color: #465fec;
 }
 
-.touch:hover{
+.touch:hover {
   background-color: #465feca2;
   color: white;
 }
@@ -210,9 +212,9 @@ form {
   .contact {
     height: 100vh;
   }
-  .contact p{
+  /* .contact p {
     width: 80%;
-  }
+  } */
   form {
     width: 80%;
   }
